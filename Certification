@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manish Gupta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    Manish Gupta
+                </a>
+            </li>
+            <li>
+                <a href="./index.html">Main</a>
+            </li>
+            <li>
+                <a href="./publications.html">Publications</a>
+            </li>
+            <li>
+                <a href="./projects.html">Projects</a>
+            </li>
+              <li>
+                <a href="./Certification.html">Projects</a>
+            </li>
+	   <li>
+                <a href="./repository.html">Repositories</a>
+            </li>
+            <li>
+                <a href="documents/CV.pdf">CV</a>
+            </li>
+            <li>
+                <a href="./personal.html">Personal</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <div id="toptitle"><h1 style="color:#111; padding-top:2.1%; padding-left:2%"> Projects</h1></div>
+    <div id="publications" align="left">
+        <ol>
+			<li> <b>Deep Learned Heat Transfer Simulator </b>(Doctoral research project, Dr. Shalabh Maroo)&emsp; Jan 2019 – Jun 2021
+				<br>&ensp; The goal of this project is to reduce the simulation time of traditional numerical solvers
+				<ul>
+					<li>Collected data and extracted features from molecular dynamics simulations to create a dataset.</li>
+					<li>Performed a comprehensive analysis of <b>regression</b> models and <b>swallow neural network</b> from scratch to
+						determine the applicability of model and hyperparameters.</li>
+					<li>Developing a <b>deep learning model</b> to improve accuracy for a complex relationship between input features and output.</li>
+				</ul>
+			</li>
+
+			<li> <b>Copula-based Listen and Spell (CBLS) </b>(Dr. Yanzhi Wang)&emsp; Jan 2018 - Apr 2018
+				<br>&ensp; The project was aimed to extract the relationship between high-level features and improve accuracy for output.
+				<ul>
+					<li>Trained Listen, Attend and Spell (<b>LAS</b>) model for large vocabulary conversational <b>speech recognition</b></li>
+					<li>Extracted higher-level features from the Listener sub-module and captured statistical dependence between
+						them using <b>Copula</b> theory.</li>
+					<li>Built a <b>Copula</b>-based Listen and Spell (CBLA) model for <b>speech utterances</b> deploying heterogeneous
+						transfer learning with two sub-modules: Listener (<b>BLSTM</b>) & Speller (<b>LSTM</b>) in Python using <b>TensorFlow</b>.</li>
+				</ul>
+			</li>
+
+			<li> <b>Molecular Dynamic Software </b>(Doctoral research project, Dr. Shalabh Maroo)&emsp; Aug 2016 - Dec 2018
+				<br>&ensp;The task was to create robust software to analyze heat transfer between surface and liquid.
+				<ul>
+					<li>Programmed a heat transfer <b>algorithm</b> in open-source software, Large-scale Atomic/Molecular Massively Parallel Simulator containing 19 classes representing core functionality with more than 500 classes in <b>C++</b></li>
+					<li>Reinforced software for its robustness and flexibility with the help of <b>object-oriented programing.</b></li>
+				</ul>
+			</li>
+
+			<li> <b>Key/Value Database </b>(Dr. Jim Fawcett)&emsp; Jan 2017 - Apr 2017
+				<ul>
+					<li>Designed a <b>key/value</b> in-memory database in <b>C++</b> for big data handling and explored the construction of a
+						non-SQL database.</li>
+					<li>Built a <b>software tool</b> for code analysis with a template class and type-based dependency analyzer and code
+						publisher.</li>
+				</ul>
+			</li>
+
+			<li> <b>SoftMax for Multi-Task Classification </b>(Dr. Yanzhi Wang)&emsp; Jan 2018 - Apr 2018
+				<ul>
+					<li>Built a neural network classifier including backpropagation and gradient descent to</li>
+					<li>Remodeled the problem with convolution neural network <b>(CNN)</b> to improve the performance.</li>
+				</ul>
+			</li>
+
+			<li> <b>Neural Machine Translation </b>(Dr. Yanzhi Wang)&emsp; Jan 2018 - Apr 2018
+				<ul>
+					<li>Developed architecture of Recurrent Neural Network <b>(RNN)</b> using Python with TensorFlow.</li>
+					<li>Programmed neural machine translation with Long Short-Term Memory (LSTM) for English-German
+						translation.</li>
+				</ul>
+			</li>
+		
+			<li> <b>Thermal Management and Nucleation  </b>(Doctoral research project, Dr. Shalabh Maroo)&emsp; Aug 2016 - July 2021
+				<ul>
+					<li>Fabricated the nano-samples at nano-fabrication lab at Cornell University to study nano-confinement effects in channels.</li>
+					<li>Investigated the onset of nucleation and the phase change at nanoscale to provide a comprehensive analysis of physics at nano-confined channels and published three peer-reviewed journals and three under-reviews. </li>
+					<li><b>Patented</b> a new thermal management device with passive nano-heat pipes for electronics and power conversion devices capable of high improved cooling in localized heat sources <b>(US patent: US10881034B2)</b></li>
+				</ul>
+			</li>
+
+
+
+        </ol>
+    </div>
+</body>
+</html>
